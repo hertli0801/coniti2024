@@ -1,0 +1,52 @@
+.container{
+  display: flex; /*Declaramos que usaremos flexbox*/
+  height: 100%; /* altura*/
+  width: 100%;/*anchura*/
+  background-color: lightcoral; /*color de fondo*/
+  justify-content: center;
+  align-items: center;
+}
+
+.box {
+  background-color: white;
+  width: 400px;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+.box > h1 {
+  text-align: center;
+}
+
+.box > input, .box > select, .box > button {
+  margin-top: 15px;
+  padding: 5px;
+}
+
+.box >button {
+  cursor: pointer;
+  background-color: lightskyblue;
+  border: none;
+  padding: 5px;
+  border-radius: 5px;
+}
+
+.tarea{
+  display: flex;
+  padding: 10px;
+  flex-direction: column;
+  border-bottom: 1px solid lightgreen;
+  transition: .3s;
+}
+
+.tarea:hover{
+  background-color: lightgray;
+}
+
+.busqueda{
+  margin-bottom: 15px;
+  padding: 5px;
+  width: 100%;
+}
+
